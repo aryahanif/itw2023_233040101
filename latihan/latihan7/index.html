@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V-Bucks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rethink+Sans&family=Roboto+Condensed:wght@200&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">V-Bucks</h2>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">8k zimbabwe dollars</h4>
+                <p>1-stack</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">30k zimbabwe dollars</h4>
+                <p>4-stack</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h4>KANDA V-Bucks</h4>
+            </div>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Trade</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis? Aliquid
+                    excepturi esse impedit aut expedita rerum, magni nisi eos aperiam in molestiae quis
+                    quibusdam ut ea quasi, dolorum distinctio?
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Gift</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis? Aliquid
+                    excepturi esse impedit aut expedita rerum, magni nisi eos aperiam in molestiae quis
+                    quibusdam ut ea quasi, dolorum distinctio?
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Order</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis? Aliquid
+                    excepturi esse impedit aut expedita rerum, magni nisi eos aperiam in molestiae quis
+                    quibusdam ut ea quasi, dolorum distinctio?
+                </p>
+            </div>
+        </section>
+        <section class="Gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/featured/301x201" alt="" />
+            <img src="https://source.unsplash.com/featured/302x202" alt="" />
+            <img src="https://source.unsplash.com/featured/303x203" alt="" />
+            <img src="https://source.unsplash.com/featured/304x204" alt="" />
+            <img src="https://source.unsplash.com/featured/305x205" alt="" />
+            <img src="https://source.unsplash.com/featured/306x206" alt="" />
+            <img src="https://source.unsplash.com/featured/307x207" alt="" />
+            <img src="https://source.unsplash.com/featured/308x208" alt="" />
+            <img src="https://source.unsplash.com/featured/309x209" alt="" />
+            <img src="https://source.unsplash.com/featured/3010x2010" alt="" />
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle input");
+        const nav = document.querySelector("nav ul");
+
+        menuToggle.addEventListener("click", function () {
+            nav.classList.toggle("slide");
+        });
+    </script>
+</body>
+
+</html>
